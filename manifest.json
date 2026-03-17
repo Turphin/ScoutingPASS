@@ -11,7 +11,7 @@
   "icons": [
     {
       "src": "https://www.pwabuilder.com/assets/icons/icon_192.png",
-      "sizes": "192x192",
+      "sizes": "173x173",
       "type": "image/png",
       "purpose": "any"
     }
