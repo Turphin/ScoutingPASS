@@ -1,0 +1,27 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "ScoutingPASS",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "ScoutingPASS",
+  "start_url": "/ScoutingPASS/",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://turphin.github.io/ScoutingPASS/favicon.ico",
+      "type": "image/x-icon",
+      "isSquare": false,
+      "isPng": false,
+      "isWebp": false,
+      "isJpg": false,
+      "width": 0,
+      "is512x512": false,
+      "is256x256": false,
+      "is192x192": false
+    }
+  ],
+  "id": "org.turtledev.frc.scoutingpass",
+  "description": "A scouting system for FIRST FRC competitions developed by PWNAGE - Team #2451"
+}
