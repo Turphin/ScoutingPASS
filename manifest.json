@@ -10,7 +10,7 @@
   "theme_color": "#ffffff",
   "icons": [
     {
-      "src": "https://www.pwabuilder.com/assets/icons/icon_192.png",
+      "src": "/ScoutingPASS/favicon.png",
       "sizes": "173x173",
       "type": "image/png",
       "purpose": "any"
