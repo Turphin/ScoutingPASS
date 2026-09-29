@@ -1,7 +1,7 @@
 {
   "name": "ScoutingPASS",
   "short_name": "ScoutingPASS",
-  "start_url": "/ScoutingPASS/",
+  "start_url": "./ScoutingPASS/",
   "display": "standalone",
   "description": "An FRC scouting app",
   "lang": "en",
