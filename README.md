@@ -4,7 +4,7 @@
 
 #### A scouting system for FIRST FRC competitions developed by [PWNAGE - Team #2451](https://pwnagerobotics.org)
 
-<a href="https://PWNAGERobotics.github.io/ScoutingPASS">Live Demo</a> . <a href="https://PWNAGERobotics.github.io/ScoutingPASS/pit.html">Pit Scouting</a> . <a href="#getting-started">Getting Started</a> . <a href="#faq">FAQ</a>
+<a href="https://turphin.github.io/ScoutingPASS">Live Demo</a> . <a href="https://turphin.github.io/ScoutingPASS/pit.html">Pit Scouting</a> . <a href="#getting-started">Getting Started</a> . <a href="#faq">FAQ</a>
 
 ![Stars](https://img.shields.io/github/stars/PWNAGERobotics/ScoutingPASS?style=plastic) ![Forks](https://img.shields.io/github/forks/PWNAGERobotics/ScoutingPASS?style=plastic) ![watchers](https://img.shields.io/github/watchers/PWNAGERobotics/ScoutingPASS?style=plastic)
 <h1></h1>
@@ -51,7 +51,7 @@
 <div id="live-app"></div>
 
 ## Live Application
-This repository is hosted on GitHub Pages.  You can view a live version of it here: https://PWNAGERobotics.github.io/ScoutingPASS.  (You can host your version of the ScoutingPASS application on GitHub Pages as well.)
+This repository is hosted on GitHub Pages.  You can view a live version of it here: https://turphin.github.io/ScoutingPASS.  (You can host your version of the ScoutingPASS application on GitHub Pages as well.)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 <div id="description"></div>
@@ -110,7 +110,7 @@ Note: For this to work, the schedule has to be posted to The Blue Alliance.  Tha
 
 ScoutingPASS now supports Pit Scouting
 
-To access the pit scouting page, add '/pit.html' to the end of your URL.  (i.e., http://pwnagerobotics.github.io/ScoutingPASS/pit.html)
+To access the pit scouting page, add '/pit.html' to the end of your URL.  (i.e., http://turphin.github.io/ScoutingPASS/pit.html)
 
 It works almost exactly like the main scouting pages, except there is only one page of input.   Once your scouters have filled out the information, swipe left to display the QR code.   That QR code can be scanned to push the data to Excel.
 
