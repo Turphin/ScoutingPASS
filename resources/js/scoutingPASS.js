@@ -5,6 +5,12 @@
 
 document.addEventListener("touchstart", startTouch, false);
 document.addEventListener("touchend", moveTouch, false);
+document.addEventListener("DOMContentLoaded", function () {updateProgress();} );
+document.addEventListener("input", function (event) {
+  if (event.target.name === "s") {
+    event.target.value = event.target.value.toUpperCase();
+  }
+});
 
 // Swipe Up / Down / Left / Right
 var initialX = null;
@@ -1096,6 +1102,7 @@ function swipePage(increment) {
       slide += increment;
       window.scrollTo(0, 0);
       slides[slide].style.display = "table";
+      updateProgress();
       document.getElementById('data').innerHTML = "";
       document.getElementById('copyButton').setAttribute('value','Copy Data');
     }
@@ -1488,23 +1495,22 @@ window.onload = function () {
   }
 };
 
+function updateProgress() {
+  var slides = document.getElementById("main-panel-holder").children;
+  var progress = document.getElementById("scouting-progress");
+  var step = document.getElementById("progress-step");
+  var name = document.getElementById("progress-name");
 
+  if (!progress || !step || !name || slides.length === 0) {
+    return;
+  }
 
+  var currentPanel = slides[slide];
+  var heading = currentPanel.querySelector("h2");
+  var currentStep = slide + 1;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  progress.max = slides.length;
+  progress.value = currentStep;
+  step.textContent = "Step " + currentStep + " of " + slides.length;
+  name.textContent = heading ? heading.textContent : "Scouting";
+}
