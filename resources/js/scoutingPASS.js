@@ -1484,8 +1484,7 @@ window.onload = function () {
       ec = ece.value;
     }
     if (ec != null) {
-      getTeams(ec);
-      getSchedule(ec);
+      startBlueAllianceSync(ec);
     }
     this.drawFields();
     if (enableGoogleSheets) {
