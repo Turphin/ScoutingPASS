@@ -10,7 +10,7 @@
 		<script src="resources/js/googleSheets.js"></script>
 		<script src="resources/js/scoutingPASS.js"></script>
 		<script src="2026/rebuilt_config.js"></script>
-	<script>navigator.serviceWorker.register("service-worker.js")</script> 
+	<script>if ("serviceWorker" in navigator) {window.addEventListener("load", () => {navigator.serviceWorker.register("./service-worker.js").catch(console.error);});}</script> 
 	<link rel="manifest" href="manifest.json" />
 	<link rel="stylesheet" href="resources/css/scoutingPASS.css">
 	</head>
